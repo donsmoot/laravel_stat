@@ -8,18 +8,18 @@
     <!-- Google Font: Source Sans Pro -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
     <!-- Font Awesome Icons -->
-    <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="{{ asset('assets/plugins/fontawesome-free/css/all.min.css')}}">
     <!-- overlayScrollbars -->
-    <link rel="stylesheet" href="plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+    <link rel="stylesheet" href="{{ asset('assets/plugins/overlayScrollbars/css/OverlayScrollbars.min.css')}}">
     <!-- Theme style -->
-    <link rel="stylesheet" href="dist/css/adminlte.min.css">
+    <link rel="stylesheet" href="{{ asset('assets/css/adminlte.min.css')}}">
 </head>
 <body class="hold-transition dark-mode sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed">
 <div class="wrapper">
 
     <!-- Preloader -->
     <div class="preloader flex-column justify-content-center align-items-center">
-        <img class="animation__wobble" src="dist/img/AdminLTELogo.png" alt="AdminLTELogo" height="60" width="60">
+        <img class="animation__wobble" src="{{ asset('assets/img/AdminLTELogo.png') }}" alt="AdminLTELogo" height="60" width="60">
     </div>
 
     <!-- Navbar -->
@@ -71,7 +71,7 @@
                     <a href="#" class="dropdown-item">
                         <!-- Message Start -->
                         <div class="media">
-                            <img src="dist/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle">
+                            <img src="{{ asset('assets/img/user1-128x128.jpg') }}'" alt="User Avatar" class="img-size-50 mr-3 img-circle">
                             <div class="media-body">
                                 <h3 class="dropdown-item-title">
                                     Brad Diesel
@@ -87,7 +87,7 @@
                     <a href="#" class="dropdown-item">
                         <!-- Message Start -->
                         <div class="media">
-                            <img src="dist/img/user8-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+                            <img src="{{ asset('assets/img/user8-128x128.jpg') }}" alt="User Avatar" class="img-size-50 img-circle mr-3">
                             <div class="media-body">
                                 <h3 class="dropdown-item-title">
                                     John Pierce
@@ -103,7 +103,7 @@
                     <a href="#" class="dropdown-item">
                         <!-- Message Start -->
                         <div class="media">
-                            <img src="dist/img/user3-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+                            <img src="{{ asset('assets/img/user3-128x128.jpg') }}" alt="User Avatar" class="img-size-50 img-circle mr-3">
                             <div class="media-body">
                                 <h3 class="dropdown-item-title">
                                     Nora Silvester
@@ -164,7 +164,7 @@
     <aside class="main-sidebar sidebar-dark-primary elevation-4">
         <!-- Brand Logo -->
         <a href="index3.html" class="brand-link">
-            <img src="dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+            <img src="{{ asset('assets/img/AdminLTELogo.png') }}" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
             <span class="brand-text font-weight-light">AdminLTE 3</span>
         </a>
 
@@ -173,7 +173,7 @@
             <!-- Sidebar user panel (optional) -->
             <div class="user-panel mt-3 pb-3 mb-3 d-flex">
                 <div class="image">
-                    <img src="dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+                    <img src="{{ asset('assets/img/user2-160x160.jpg') }}" class="img-circle elevation-2" alt="User Image">
                 </div>
                 <div class="info">
                     <a href="#" class="d-block">Alexander Pierce</a>
@@ -1141,7 +1141,7 @@
                                                     <span class="direct-chat-timestamp float-right">23 Jan 2:00 pm</span>
                                                 </div>
                                                 <!-- /.direct-chat-infos -->
-                                                <img class="direct-chat-img" src="dist/img/user1-128x128.jpg" alt="message user image">
+                                                <img class="direct-chat-img" src="{{ asset('assets/img/user1-128x128.jpg') }}" alt="message user image">
                                                 <!-- /.direct-chat-img -->
                                                 <div class="direct-chat-text">
                                                     Is this template really for free? That's unbelievable!
@@ -1157,7 +1157,7 @@
                                                     <span class="direct-chat-timestamp float-left">23 Jan 2:05 pm</span>
                                                 </div>
                                                 <!-- /.direct-chat-infos -->
-                                                <img class="direct-chat-img" src="dist/img/user3-128x128.jpg" alt="message user image">
+                                                <img class="direct-chat-img" src="{{ asset('assets/img/user3-128x128.jpg') }}" alt="message user image">
                                                 <!-- /.direct-chat-img -->
                                                 <div class="direct-chat-text">
                                                     You better believe it!
@@ -1173,7 +1173,7 @@
                                                     <span class="direct-chat-timestamp float-right">23 Jan 5:37 pm</span>
                                                 </div>
                                                 <!-- /.direct-chat-infos -->
-                                                <img class="direct-chat-img" src="dist/img/user1-128x128.jpg" alt="message user image">
+                                                <img class="direct-chat-img" src="{{ asset('assets/img/user1-128x128.jpg') }}" alt="message user image">
                                                 <!-- /.direct-chat-img -->
                                                 <div class="direct-chat-text">
                                                     Working with AdminLTE on a great new app! Wanna join?
@@ -1189,7 +1189,7 @@
                                                     <span class="direct-chat-timestamp float-left">23 Jan 6:10 pm</span>
                                                 </div>
                                                 <!-- /.direct-chat-infos -->
-                                                <img class="direct-chat-img" src="dist/img/user3-128x128.jpg" alt="message user image">
+                                                <img class="direct-chat-img" src="{{ asset('assets/img/user3-128x128.jpg') }}" alt="message user image">
                                                 <!-- /.direct-chat-img -->
                                                 <div class="direct-chat-text">
                                                     I would love to.
@@ -1206,7 +1206,7 @@
                                             <ul class="contacts-list">
                                                 <li>
                                                     <a href="#">
-                                                        <img class="contacts-list-img" src="dist/img/user1-128x128.jpg" alt="User Avatar">
+                                                        <img class="contacts-list-img" src="{{ asset('assets/img/user1-128x128.jpg') }}" alt="User Avatar">
 
                                                         <div class="contacts-list-info">
                               <span class="contacts-list-name">
@@ -1221,7 +1221,7 @@
                                                 <!-- End Contact Item -->
                                                 <li>
                                                     <a href="#">
-                                                        <img class="contacts-list-img" src="dist/img/user7-128x128.jpg" alt="User Avatar">
+                                                        <img class="contacts-list-img" src="{{ asset('assets/img/user7-128x128.jpg') }}" alt="User Avatar">
 
                                                         <div class="contacts-list-info">
                               <span class="contacts-list-name">
@@ -1236,7 +1236,7 @@
                                                 <!-- End Contact Item -->
                                                 <li>
                                                     <a href="#">
-                                                        <img class="contacts-list-img" src="dist/img/user3-128x128.jpg" alt="User Avatar">
+                                                        <img class="contacts-list-img" src="{{ asset('assets/img/user3-128x128.jpg') }}" alt="User Avatar">
 
                                                         <div class="contacts-list-info">
                               <span class="contacts-list-name">
@@ -1251,7 +1251,7 @@
                                                 <!-- End Contact Item -->
                                                 <li>
                                                     <a href="#">
-                                                        <img class="contacts-list-img" src="dist/img/user5-128x128.jpg" alt="User Avatar">
+                                                        <img class="contacts-list-img" src="{{ asset('assets/img/user5-128x128.jpg') }}" alt="User Avatar">
 
                                                         <div class="contacts-list-info">
                               <span class="contacts-list-name">
@@ -1266,7 +1266,7 @@
                                                 <!-- End Contact Item -->
                                                 <li>
                                                     <a href="#">
-                                                        <img class="contacts-list-img" src="dist/img/user6-128x128.jpg" alt="User Avatar">
+                                                        <img class="contacts-list-img" src="{{ asset('assets/img/user6-128x128.jpg') }}" alt="User Avatar">
 
                                                         <div class="contacts-list-info">
                               <span class="contacts-list-name">
@@ -1281,7 +1281,7 @@
                                                 <!-- End Contact Item -->
                                                 <li>
                                                     <a href="#">
-                                                        <img class="contacts-list-img" src="dist/img/user8-128x128.jpg" alt="User Avatar">
+                                                        <img class="contacts-list-img" src="dist/img/user8-128x128.jpg') }}" alt="User Avatar">
 
                                                         <div class="contacts-list-info">
                               <span class="contacts-list-name">
@@ -1712,26 +1712,26 @@
 
 <!-- REQUIRED SCRIPTS -->
 <!-- jQuery -->
-<script src="plugins/jquery/jquery.min.js"></script>
+<script src="{{ asset('assets/plugins/jquery/jquery.min.js') }}"></script>
 <!-- Bootstrap -->
-<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="{{ asset('assets/plugins/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
 <!-- overlayScrollbars -->
-<script src="plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+<script src="{{ asset('assets/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js') }}"></script>
 <!-- AdminLTE App -->
-<script src="dist/js/adminlte.js"></script>
+<script src="{{ asset('assets/js/adminlte.js') }}"></script>
 
 <!-- PAGE PLUGINS -->
 <!-- jQuery Mapael -->
-<script src="plugins/jquery-mousewheel/jquery.mousewheel.js"></script>
-<script src="plugins/raphael/raphael.min.js"></script>
-<script src="plugins/jquery-mapael/jquery.mapael.min.js"></script>
-<script src="plugins/jquery-mapael/maps/usa_states.min.js"></script>
+<script src="{{ asset('assets/plugins/jquery-mousewheel/jquery.mousewheel.js') }}"></script>
+<script src="{{ asset('assets/plugins/raphael/raphael.min.js') }}"></script>
+<script src="{{ asset('assets/plugins/jquery-mapael/jquery.mapael.min.js') }}"></script>
+<script src="{{ asset('assets/plugins/jquery-mapael/maps/usa_states.min.js') }}"></script>
 <!-- ChartJS -->
-<script src="plugins/chart.js/Chart.min.js"></script>
+<script src="{{ asset('assets/plugins/chart.js/Chart.min.js') }}"></script>
 
 <!-- AdminLTE for demo purposes -->
-<script src="dist/js/demo.js"></script>
+<script src="{{ asset('assets/js/demo.js') }}"></script>
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-<script src="dist/js/pages/dashboard2.js"></script>
+<script src="{{ asset('assets/js/pages/dashboard2.js') }}"></script>
 </body>
 </html>
