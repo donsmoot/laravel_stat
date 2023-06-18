@@ -10,5 +10,9 @@ class DashboardMainController extends Controller
     {
         return view( 'main');
     }
+    public function test_content()
+    {
+        return view( 'test');
+    }
 }
 //cc

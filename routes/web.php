@@ -19,3 +19,5 @@ Route::get('/', function () {
 
 use App\Http\Controllers\DashboardMainController;
 Route::get('/dashboard', [DashboardMainController::class, 'index']);
+
+Route::get('/test', [DashboardMainController::class, 'test_content']);
